@@ -32,7 +32,7 @@ const CustomSelect: React.FC<ICustomSelectProps> = ({
   handleChangeSelected
 }) => {
   const { showModal, toggleModal } = useModal();
-  const { onAddOption } = useRelations()
+  const { onAddOption } = useRelations(control)
 
 
   return (
